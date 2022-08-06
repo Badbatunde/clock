@@ -40,7 +40,46 @@ body {
   height: 6px;
   background: rgba(0, 0, 00, 0.3);
   position: absolute;
+  border-radius: 5px;
   top: 50%;
   transform: rotate(90deg);
   transform-origin: 100%;
+}
+
+.second-hand {
+  background: red;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.numbers {
+  font-family: monospace;
+  font-size: 5rem;
+  color: rgba(276, 2, 106, 0.9);
+  font-weight: bolder;
+}
+
+.twelve {
+  position: absolute;
+  top: 10%;
+  right: 49%;
+}
+
+.six {
+  position: absolute;
+  bottom: 10%;
+  right: 49%;
+  margin-bottom: 5px;
+}
+
+.nine {
+  position: absolute;
+  top: 44.5%;
+  right: 67%;
+}
+
+.three {
+  position: absolute;
+  top: 44.5%;
+  right: 31%;
 }
