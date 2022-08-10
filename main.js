@@ -5,7 +5,7 @@ const today = document.querySelector('.today');
 
 function setDate() {
     const now = new Date();
-    today.innerHTML = now;
+    today.innerHTML = now.toDateString();
 
     const seconds = now.getSeconds();
     const secondsDegree = (seconds / 60) * 360 + 90;
